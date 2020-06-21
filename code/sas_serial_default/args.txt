@@ -1,0 +1,16 @@
+batch_size,128
+dataset,sas_serial
+dropout_rate,0.3
+hidden_units,128
+l2_emb,0.01
+lr,0.002
+maxlen,400
+num_blocks,2
+num_epochs,41
+num_heads,1
+o_filename,result
+p_dataset,pred_serial
+recall_ds,recall_stage1
+recall_v,valid_data
+train_dir,default
+v_dataset,valid_serial
